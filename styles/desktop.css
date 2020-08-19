@@ -1,0 +1,43 @@
+body {
+  background-image: url("../images/bg-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  height: 150px;
+}
+header img {
+  width: 200px;
+}
+main {
+  height: 80vh;
+  grid-template-columns: 60% 40%;
+  align-content: center;
+  padding-top: 0;
+}
+.main--img-container {
+  display: grid;
+  align-content: center;
+  padding-right: 45px;
+}
+.main--info-container {
+  text-align: left;
+}
+.main--info-container h1 {
+  font-size: 4rem;
+}
+.main--info-container p {
+  font-size: 1.9rem;
+}
+.main--info-container button {
+  width: 200px;
+  font-size: 1.6rem;
+}
+.info--icon-container {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  justify-self: end;
+  margin: 0;
+  margin-top: 50px;
+}
